@@ -143,7 +143,8 @@ function didXWin() {
             return true;
         }
          if (currentPosition[3] == "x" && currentPosition[8] == "x" && currentPosition[13] == "x" && currentPosition[18] == "x" && current Position[23] == "x") {
-        }
+            return true;
+         }
           if (currentPosition[4] == "x" && currentPosition[9] == "x" && currentPosition[14] == "x" && currentPosition[19] == "x" && currentPosition[24] == "x") {
             return true;
         }
@@ -182,6 +183,7 @@ function didOWin() {
             return true;
         }
           if (currentPosition[3] == "o" && currentPosition[8] == "o" && currentPosition[13] == "o" && currentPosition[18] == "o" && currentPosition[23] == "o") {
+            return true;
         }
           if (currentPosition[4] == "o" && currentPosition[9] == "o" && currentPosition[14] == "o" && currentPosition[19] == "o" && currentPosition[24] == "o") {
             return true;
