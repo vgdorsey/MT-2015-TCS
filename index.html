@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MT2015 CS Game VDJM</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="halting-game.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="halting-game.js"></script>
+    
+</head>
+  
+<body>
+<div class="container">
+    <div class="page-header">
+        <h3>Extended Tic-Tac-Toe</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+        Player 1
+        You are X's
+        <p id="XWins"></p>
+        <p id="Draw"></p>
+        
+        </div>
+        <div class="col-sm-6">
+            <canvas id="middleCanvas" width="500" height="500">
+            </canvas>
+        </div>
+        <div class="col-sm-3">
+            Player 2
+            You are O's
+            <p id="OWins"></p>
+            <p id="Tie"></p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
