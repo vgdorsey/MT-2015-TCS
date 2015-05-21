@@ -49,11 +49,11 @@ function drawBoard() {
 	ctx.moveTo(200, 0);
 	ctx.lineTo(200, 500);
     
-    ctx.moveTo(300, 0);
-    ctx.lineTo(300, 500);
+    	ctx.moveTo(300, 0);
+    	ctx.lineTo(300, 500);
     
-    ctx.moveTo(400, 0);
-    ctx.lineTo(400, 500);
+    	ctx.moveTo(400, 0);
+	ctx.lineTo(400, 500);
 
 	ctx.moveTo(0, 100);
 	ctx.lineTo(500, 100);
@@ -61,13 +61,13 @@ function drawBoard() {
 	ctx.moveTo(0, 200);
 	ctx.lineTo(500, 200);
     
-    ctx.moveTo(0, 300);
-    ctx.lineTo(500, 300);
+    	ctx.moveTo(0, 300);
+    	ctx.lineTo(500, 300);
     
-    ctx.moveTo(0, 400);
-    ctx.lineTo(500, 400);
-    ctx.strokeStyle = '#FF8C00';
-    ctx.stroke();
+    	ctx.moveTo(0, 400);
+    	ctx.lineTo(500, 400);
+    	ctx.strokeStyle = '#FF8C00';
+    	ctx.stroke();
 }
 
 currentPosition = ["b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"];
@@ -139,8 +139,10 @@ function didXWin() {
           if (currentPosition[1] == "x" && currentPosition[6] == "x" && currentPosition[11] == "x" && currentPosition[16] == "x" && currentPosition[21] == "x") {
             return true;
         }
-          if (currentPosition[2] == "x" && currentPosition[7] == "x" && currentPosition[12] == "x" && currentPosition[18] == "x" && currentPosition[23] == "x") {
+          if (currentPosition[2] == "x" && currentPosition[7] == "x" && currentPosition[12] == "x" && currentPosition[17] == "x" && currentPosition[22] == "x") {
             return true;
+        }
+         if (currentPosition[3] == "x" && currentPosition[8] == "x" && currentPosition[13] == "x" && currentPosition[18] == "x" && current Position[23] == "x") {
         }
           if (currentPosition[4] == "x" && currentPosition[9] == "x" && currentPosition[14] == "x" && currentPosition[19] == "x" && currentPosition[24] == "x") {
             return true;
@@ -176,8 +178,10 @@ function didOWin() {
           if (currentPosition[1] == "o" && currentPosition[6] == "o" && currentPosition[11] == "o" && currentPosition[16] == "o" && currentPosition[21] == "o") {
             return true;
         }
-          if (currentPosition[2] == "o" && currentPosition[7] == "o" && currentPosition[12] == "o" && currentPosition[18] == "o" && currentPosition[23] == "o") {
+          if (currentPosition[2] == "o" && currentPosition[7] == "o" && currentPosition[12] == "o" && currentPosition[17] == "o" && currentPosition[22] == "o") {
             return true;
+        }
+          if (currentPosition[3] == "o" && currentPosition[8] == "o" && currentPosition[13] == "o" && currentPosition[18] == "o" && currentPosition[23] == "o") {
         }
           if (currentPosition[4] == "o" && currentPosition[9] == "o" && currentPosition[14] == "o" && currentPosition[19] == "o" && currentPosition[24] == "o") {
             return true;
