@@ -142,7 +142,7 @@ function didXWin() {
           if (currentPosition[2] == "x" && currentPosition[7] == "x" && currentPosition[12] == "x" && currentPosition[17] == "x" && currentPosition[22] == "x") {
             return true;
         }
-         if (currentPosition[3] == "x" && currentPosition[8] == "x" && currentPosition[13] == "x" && currentPosition[18] == "x" && current Position[23] == "x") {
+         if (currentPosition[3] == "x" && currentPosition[8] == "x" && currentPosition[13] == "x" && currentPosition[18] == "x" && currentPosition[23] == "x") {
             return true;
          }
           if (currentPosition[4] == "x" && currentPosition[9] == "x" && currentPosition[14] == "x" && currentPosition[19] == "x" && currentPosition[24] == "x") {
